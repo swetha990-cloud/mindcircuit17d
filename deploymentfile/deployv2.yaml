@@ -1,0 +1,36 @@
+
+
+---
+apiVersion: apps/v1
+kind: Deployment 
+metadata:
+  name: fb-deployment
+  labels:
+    app: fb-app
+    env: prod
+spec:
+  replicas: 3
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 1
+      maxSurge: 1
+  
+  selector:
+    matchLabels:
+      app: fb-app
+      env: prod
+  template:
+    metadata: 
+      labels:
+        app: fb-app
+        env: prod
+        version: v2_vc
+
+    spec:
+      containers: 
+      - name: facebook-container
+        image: devopshubg333/batch17d:pythonimg_v1
+        ports:
+        - containerPort: 8080
+        
