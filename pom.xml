@@ -15,10 +15,11 @@
 	</properties>
 
 	<distributionManagement>
-		 <snapshotRepository>
-		    <id>NexusRepo</id>
-		    <url>http://100.53.79.163:8081/repository/swetha-repo-snapshot/</url>
-		 </snapshotRepository>
+    <snapshotRepository>
+        <id>NexusRepo</id>
+        <url>http://100.53.79.163:8081/repository/swetha-repo-snapshot/</url>
+    </snapshotRepository>
+</distributionManagement>
 		
 		<repository>
 		    <id>NexusRepo</id>
