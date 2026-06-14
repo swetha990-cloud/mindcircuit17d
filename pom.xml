@@ -5,7 +5,7 @@
 
     <groupId>com.example</groupId>
     <artifactId>facebookapp</artifactId>
-    <version>4.0.0</version>
+    <version>4.0.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
 	<properties>
@@ -17,12 +17,12 @@
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>NexusRepo</id>
-		    <url>http://100.53.79.163:8081/repository/swetha-repo-snapshot/</url>
+		    <url>http://44.202.165.151:8081/repository/priyankarepo-snapshot/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>NexusRepo</id>
-		    <url>http://100.53.79.163:8081/repository/swetha-repo-release/</url>
+		    <url>http://44.202.165.151:8081/repository/Priyankarepo-release/</url>
 		</repository>
   	</distributionManagement>
     
