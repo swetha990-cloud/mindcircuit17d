@@ -30,7 +30,7 @@ spec:
     spec:
       containers: 
       - name: facebook-container
-        image: swethasrk/devops:xyz
+        image: swethasrk/devops:5
         ports:
         - containerPort: 8080
         
