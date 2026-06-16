@@ -3,9 +3,9 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: fb-service
+  name: insta-service
   labels:
-    app: fb-app
+    app: insta-app
     env: prod
 spec:
   type: LoadBalancer  
